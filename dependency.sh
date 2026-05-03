@@ -33,7 +33,8 @@ sudo apt-get install -y autoconf
 #git clone http://git.veripool.org/git/verilator
 git clone https://github.com/verilator/verilator.git
 cd verilator
-git checkout v4.034
+#git checkout v4.034
+git checkout v4.215
 autoconf && ./configure && make -j16 && sudo make install
 cd ..
 
