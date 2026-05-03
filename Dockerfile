@@ -16,4 +16,4 @@ RUN git clone https://github.com/Aweinhof/specdoctor.git \
  && cd specdoctor \
  && echo "y" | ./setup.sh
 
-ENTRYPOINT ["tail", "-f", "/dev/null"]
+ENTRYPOINT ["/bin/bash"]
